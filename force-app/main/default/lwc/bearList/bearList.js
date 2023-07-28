@@ -9,7 +9,7 @@ export default class BearList extends LightningElement {
 	appResources = {
 		bearSilhouette: `${ursusResources}/standing-bear-silhouette.png`,
 	};
-	handleSearchTermChange(event) {
+	handleSearchTermChange(event) { // testing here to make merge conflict// on branch2
 		// Debouncing this method: do not update the reactive property as
 		// long as this function is being called within a delay of 300 ms.
 		// This is to avoid a very large number of Apex method calls.
